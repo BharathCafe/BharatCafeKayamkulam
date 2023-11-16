@@ -81,7 +81,7 @@
                   <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#banner">Home</a></li>
                     <li><a href="#about">About us</a></li>
-                    <li><a href="#menu">Menu</a></li>
+                    <li><a  onclick="openPDF()">Menu</a></li>
                     <!-- <li><a href="#our_team">Team</a></li> -->
                     <li><a href="#gallery">Gallery</a></li>
                     <!-- <li><a href="#blog">Blog</a></li> -->
@@ -131,11 +131,13 @@
                   diem nonummy nibh euismod
                 </p>
                 <div class="book-btn">
+
                   <a
-                    href="#reservation"
+                    onclick="openPDF()"
                     class="table-btn hvr-underline-from-center"
                     >MENU</a
                   >
+
                 </div>
                 <a href="#about">
                   <div class="mouse"></div>
@@ -1053,7 +1055,7 @@
             <!-- end blog-box -->
 
             <div class="blog-btn-v">
-              <a class="hvr-underline-from-center" href="#">View the Blog</a>
+              <!-- <a class="hvr-underline-from-center" href="#">View the Blog</a> -->
             </div>
           </div>
           <!-- end col -->
@@ -1068,36 +1070,36 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="block-title text-center">Discover Culinary Excellence at [Restaurant Name]</h2>
-            Welcome to [Restaurant Name] At [Restaurant Name], we are
-            dedicated to providing an exceptional dining experience that
-            combines exquisite cuisine, warm hospitality, and a charming
-            ambiance. Whether you're seeking a romantic dinner, a family
-            celebration, or a casual gathering with friends, our restaurant is
-            the perfect destination. Our Culinary Philosophy Our culinary
-            team, led by our talented chefs, is committed to crafting dishes
-            that showcase the finest ingredients and innovative techniques.
-              From locally sourced produce to globally inspired flavors, each
-              dish tells a story of passion and creativity. The Ambiance Step
-              into a world of inviting elegance. Our restaurant's stylish decor
-              creates a welcoming atmosphere, perfect for intimate dinners or
-              lively celebrations. Whether you choose our cozy indoor seating or
-              opt for the refreshing outdoor terrace, every corner of
-              [Restaurant Name] is designed for your comfort. Menu Highlights
-              Explore a menu that reflects our commitment to culinary
-              excellence. From mouthwatering appetizers to decadent desserts,
-              each dish is a masterpiece. Don't miss our signature dishes,
-              carefully curated to delight your palate and leave a lasting
-              impression. Special Events and Catering In addition to our regular
-              dining services, we also offer special event hosting and catering
-              services. Let us make your special occasions truly memorable with
-              our exceptional cuisine and attentive service. Visit Us Today Join
-              us at [Restaurant Name] for an unforgettable dining experience.
-              Discover the perfect blend of flavors, ambiance, and hospitality
-              that sets us apart. We look forward to serving you and making
-              every moment at our restaurant a cherished memory.
-              <p>
-            </p>
+            <h2 class="block-title text-center">
+              Discover Culinary Excellence at [Restaurant Name]
+            </h2>
+            Welcome to [Restaurant Name] At [Restaurant Name], we are dedicated
+            to providing an exceptional dining experience that combines
+            exquisite cuisine, warm hospitality, and a charming ambiance.
+            Whether you're seeking a romantic dinner, a family celebration, or a
+            casual gathering with friends, our restaurant is the perfect
+            destination. Our Culinary Philosophy Our culinary team, led by our
+            talented chefs, is committed to crafting dishes that showcase the
+            finest ingredients and innovative techniques. From locally sourced
+            produce to globally inspired flavors, each dish tells a story of
+            passion and creativity. The Ambiance Step into a world of inviting
+            elegance. Our restaurant's stylish decor creates a welcoming
+            atmosphere, perfect for intimate dinners or lively celebrations.
+            Whether you choose our cozy indoor seating or opt for the refreshing
+            outdoor terrace, every corner of [Restaurant Name] is designed for
+            your comfort. Menu Highlights Explore a menu that reflects our
+            commitment to culinary excellence. From mouthwatering appetizers to
+            decadent desserts, each dish is a masterpiece. Don't miss our
+            signature dishes, carefully curated to delight your palate and leave
+            a lasting impression. Special Events and Catering In addition to our
+            regular dining services, we also offer special event hosting and
+            catering services. Let us make your special occasions truly
+            memorable with our exceptional cuisine and attentive service. Visit
+            Us Today Join us at [Restaurant Name] for an unforgettable dining
+            experience. Discover the perfect blend of flavors, ambiance, and
+            hospitality that sets us apart. We look forward to serving you and
+            making every moment at our restaurant a cherished memory.
+            <p></p>
           </div>
         </div>
         <!-- end row -->
@@ -1106,164 +1108,10 @@
     </div>
     <!-- end pricing-main -->
 
-    <div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
-      <div class="container">
-        <div class="row">
-          <div class="form-reservations-box">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div
-                class="wow fadeIn"
-                data-wow-duration="1s"
-                data-wow-delay="0.1s"
-              >
-                <h2 class="block-title text-center">Reservations</h2>
-              </div>
-              <h4 class="form-title">BOOKING FORM</h4>
-              <p>PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
-
-              <form
-                id="contact-form"
-                method="post"
-                class="reservations-box"
-                name="contactform"
-                action="mail.php"
-              >
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <div class="form-box">
-                    <input
-                      type="text"
-                      name="form_name"
-                      id="form_name"
-                      placeholder="Name"
-                      required="required"
-                      data-error="Firstname is required."
-                    />
-                  </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <div class="form-box">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="E-Mail ID"
-                      required="required"
-                      data-error="E-mail id is required."
-                    />
-                  </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <div class="form-box">
-                    <input
-                      type="text"
-                      name="phone"
-                      id="phone"
-                      placeholder="contact no."
-                    />
-                  </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <div class="form-box">
-                    <select
-                      name="no_of_persons"
-                      id="no_of_persons"
-                      class="selectpicker"
-                    >
-                      <option selected disabled>No. Of persons</option>
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                    </select>
-                  </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <div class="form-box">
-                    <input
-                      type="text"
-                      name="date-picker"
-                      id="date-picker"
-                      placeholder="Date"
-                      required="required"
-                      data-error="Date is required."
-                    />
-                  </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <div class="form-box">
-                    <input
-                      type="text"
-                      name="time-picker"
-                      id="time-picker"
-                      placeholder="Time"
-                      required="required"
-                      data-error="Time is required."
-                    />
-                  </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <div class="form-box">
-                    <select
-                      name="preferred_food"
-                      id="preferred_food"
-                      class="selectpicker"
-                    >
-                      <option selected disabled>preferred food</option>
-                      <option>Indian</option>
-                      <option>Continental</option>
-                      <option>Mexican</option>
-                    </select>
-                  </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <div class="form-box">
-                    <select name="occasion" id="occasion" class="selectpicker">
-                      <option selected disabled>Occasion</option>
-                      <option>Wedding</option>
-                      <option>Birthday</option>
-                      <option>Anniversary</option>
-                    </select>
-                  </div>
-                </div>
-                <!-- end col -->
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div class="reserve-book-btn text-center">
-                    <button
-                      class="hvr-underline-from-center"
-                      type="submit"
-                      value="SEND"
-                      id="submit"
-                    >
-                      BOOK MY TABLE
-                    </button>
-                  </div>
-                </div>
-                <!-- end col -->
-              </form>
-              <!-- end form -->
-            </div>
-            <!-- end col -->
-          </div>
-          <!-- end reservations-box -->
-        </div>
-        <!-- end row -->
-      </div>
-      <!-- end container -->
-    </div>
-    <!-- end reservations-main -->
-
     <div id="footer" class="footer-main">
       <div class="footer-news pad-top-100 pad-bottom-70 parallax">
         <div class="container">
           <div class="row">
-        
             <!-- end col -->
           </div>
           <!-- end row -->
@@ -1280,7 +1128,7 @@
                   <img src="images/logo.png" alt="" />
                 </div>
               </div>
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="footer-box-a">
                   <h3>About Us</h3>
                   <p>
@@ -1328,7 +1176,7 @@
                 <!-- end footer-box-a -->
               </div>
               <!-- end col -->
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <!-- <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="footer-box-b">
                   <h3>New Menu</h3>
                   <ul>
@@ -1338,29 +1186,28 @@
                     <li><a href="#">Triple Truffle Trotters</a></li>
                   </ul>
                 </div>
-                <!-- end footer-box-b -->
-              </div>
+              </div> -->
               <!-- end col -->
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="footer-box-c">
                   <h3>Contact Us</h3>
                   <p>
                     <i class="fa fa-map-signs" aria-hidden="true"></i>
-                    <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
+                    <span>Edasseri Jn, Kayamkulam, 690502, Kerala, India</span>
                   </p>
                   <p>
                     <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <span> +91 80005 89080 </span>
+                    <span> +91 99462 13824 </span>
                   </p>
                   <p>
                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span><a href="#">support@foodfunday.com</a></span>
+                    <span><a href="#">bharathcafekayamkulam@gmail.com</a></span>
                   </p>
                 </div>
                 <!-- end footer-box-c -->
               </div>
               <!-- end col -->
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="footer-box-d">
                   <h3>Opening Hours</h3>
 
@@ -1407,11 +1254,9 @@
     <!-- end footer-main -->
 
     <a href="#" class="scrollup" style="display: none">Scroll</a>
-    <a href="whatsapp://send?phone=YOUR_PHONE_NUMBER" target="_blank">
-        <img class="whatsappImage" src="images/whatsappImage.png" alt="">
-      </a>
-      
-   
+    <a href="https://wa.me/9946213824" target="_blank" title="Contact on Whatsapp">
+      <img class="whatsappImage" src="images/whatsappImage.png" alt="" />
+    </a>
 
     <section id="color-panel" class="close-color-panel">
       <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
@@ -1430,5 +1275,14 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
+    <script>
+      function openPDF() {
+        // Replace the URL with the link to your PDF file
+        var pdfURL =
+          "https://bharathcafe.github.io/BharatCafeKayamkulamMenu/Dark.pdf";
+        // Open the PDF in a new window
+        window.open(pdfURL, "_blank");
+      }
+    </script>
   </body>
 </html>
