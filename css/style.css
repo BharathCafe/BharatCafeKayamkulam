@@ -499,8 +499,8 @@ body {
 
 .banner-cell .mouse {
   position: relative;
-  width: calc(16px * 2);
-  height: calc(31px * 2);
+  width: calc(9px * 2);
+  height: calc(15px * 2);
   margin: 60px auto 20px;
   background: none;
   border: 2px solid white;
@@ -511,10 +511,10 @@ body {
   display: block;
   content: "";
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 50%;
-  width: calc(4px * 2);
-  height: calc(4px * 2);
+  width: calc(1px * 2);
+  height: calc(3px * 2);
   background: none;
   border: 2px solid white;
   border-radius: 100%;
