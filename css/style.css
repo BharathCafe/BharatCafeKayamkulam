@@ -1066,7 +1066,7 @@ body {
 /* new gallery */
 
 .gal-container {
-  padding: 12px;
+  /* padding: 12px; */
 }
 .gal-item {
   overflow: hidden;
